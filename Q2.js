@@ -5,7 +5,7 @@ class Node {
   }
 }
 
-class LinkedList {
+class Stack {
   constructor() {
     this.head = null;
     this.tail = null;
@@ -60,10 +60,10 @@ class LinkedList {
     return this.length;
   }
 }
-const myLinkedList = new LinkedList(1);
-// console.log(myLinkedList);
-myLinkedList.push(1);
-myLinkedList.push(2);
-myLinkedList.push(3);
-myLinkedList.pop()
-console.log(myLinkedList.size());
+const stack = new Stack(1);
+// console.log(stack);
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.pop()
+console.log(stack.size());
